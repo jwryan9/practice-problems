@@ -1,0 +1,19 @@
+{
+  "name": "practice-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwryan9/practice-problems.git"
+  },
+  "author": "Jason Ryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwryan9/practice-problems/issues"
+  },
+  "homepage": "https://github.com/jwryan9/practice-problems#readme"
+}
