@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/jwryan9/practice-problems#readme",
   "jest": {
-    "transform": {}
+    "transform": {},
+    "globalSetup": "./src/testSetup.js"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
