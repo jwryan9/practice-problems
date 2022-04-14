@@ -13,14 +13,10 @@ const countTriplets = (arr, r) => {
     const before = {};
     arr.forEach((item) => {
         after[item] -= 1;
-        if (item / r in before && item % r === 0 && item * r in after) {
+        if (item / r in before && item % r === 0 && item * r in after)
             count += before[item / r] * after[item * r];
-        }
-        if (item in before) {
-            before[item] += 1;
-        } else {
-            before[item] = 1;
-        }
+        if (item in before) before[item] += 1;
+        else before[item] = 1;
     });
 
     return count;

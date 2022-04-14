@@ -30,6 +30,7 @@ describe('countTriplets', () => {
             [0, [625, 125, 25, 5, 5, 1], 5],
             [6, [1, 3, 9, 9, 27, 81], 3],
             [4, [1, 5, 5, 25, 125], 5],
+            [4, [1, 1, 1, 1], 1],
         ])(
             'should return %i when arr is %s and r is %i',
             (expected, arr, r) => {
