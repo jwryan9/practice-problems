@@ -5,7 +5,7 @@ Your task is to find the minimum number of required deletions.
 
 ## Example
 
-`s  = AABAAB`
+`s = AABAAB`
 
 Remove an `A` at positions `0` and `3` to make `s=ABAB` in `2` deletions.
 
@@ -15,11 +15,11 @@ Complete the alternatingCharacters function in the editor below.
 
 alternatingCharacters has the following parameter(s):
 
-- string s: a string
+-   string s: a string
 
 ## Returns
 
-- int: the minimum number of deletions required
+-   int: the minimum number of deletions required
 
 ## Input Format
 
@@ -28,9 +28,9 @@ The next `q` lines each contain a string `s` to analyze.
 
 ## Constraints
 
-- `1 <= q <= 10`
-- `1 <= length of s <= 10^5`
-- Each string `s` will consist only of characters `A` and `B`.
+-   `1 <= q <= 10`
+-   `1 <= length of s <= 10^5`
+-   Each string `s` will consist only of characters `A` and `B`.
 
 ## Sample Input
 

@@ -14,11 +14,11 @@ return `[3,2,1]`
 Complete the function reverseArray in the editor below.
 reverseArray has the following parameter(s):
 
-- int A[n]: the array to reverse
+-   int A[n]: the array to reverse
 
 ## Returns
 
-- int[n]: the reversed array
+-   int[n]: the reversed array
 
 ## Input Format
 
@@ -27,5 +27,5 @@ The second line contains `N` space-separated integers that make up `A`.
 
 ## Constraints
 
-- 1 <= N <= 10^3
-- 1 <= A[i] <= 10^4, where A[i] is the ith integer in A
+-   1 <= N <= 10^3
+-   1 <= A[i] <= 10^4, where A[i] is the ith integer in A
