@@ -25,7 +25,7 @@
         "globalSetup": "./src/testSetup.js"
     },
     "devDependencies": {
-        "@types/jest": "^27.4.1",
+        "@types/jest": "^27.5.0",
         "chance": "^1.1.8",
         "eslint": "^8.14.0",
         "eslint-config-airbnb-base": "^15.0.0",
