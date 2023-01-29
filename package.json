@@ -25,14 +25,14 @@
         "globalSetup": "./src/testSetup.js"
     },
     "devDependencies": {
-        "@types/jest": "^29.2.3",
+        "@types/jest": "^29.4.0",
         "chance": "^1.1.8",
         "eslint": "^8.19.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-prettier": "^8.5.0",
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-jest": "^26.5.3",
-        "jest": "^29.3.1",
+        "jest": "^29.4.1",
         "prettier": "^2.7.1"
     }
 }
